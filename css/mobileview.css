@@ -1,0 +1,80 @@
+.max-width{
+    padding: 0 23px;
+}
+.home .home-content .text-2{
+    font-size: 50px;
+}
+.about .about-content .column,
+.skills .skills-content .column,
+.contact .contact-content .column{
+    width: 100%;
+}
+.about .about-content .left{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+}
+.about .about-content .right{
+    flex: 100%;
+}
+.about .title{
+    font-size: 30px;
+}
+.about .title::before{
+    width: 140px;
+}
+.about .title::after{
+    font-size: 17px;
+}
+.about .about-content .right a{
+    font-size: 15px;
+    padding: 8px 16px;
+}
+.about .about-content .right .text {
+    font-size: 20px;
+}
+.skills .skills-content .column,
+.contact .contact-content .column{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.contact .title{
+    font-size: 30px;
+}
+.contact .title::before{
+    width: 140px;
+}
+.contact .title::after{
+    font-size: 17px;
+}
+.contact .contact-content .right a{
+    font-size: 17px;
+    padding: 8px 16px;
+}
+.skills .title{
+    font-size: 30px;
+}
+.skills .title::before{
+    width: 140px;
+}
+.skills .title::after{
+    font-size: 17px;
+}
+.skills .skills-content .right a{
+    font-size: 16px;
+    padding: 8px 16px;
+}
+.skills .skills-content .left p{
+    font-size: 16px;
+}
+.skills .skills-content .left a{
+    font-size: 15px;
+    padding: 8px 16px;
+}
+.about .about-content .right p{
+    font-size: 16px;
+}
+.contact .right form .button button {
+    font-size: 15px;
+    padding: 8px 16px;
+}
